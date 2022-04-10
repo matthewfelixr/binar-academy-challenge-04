@@ -1,0 +1,29 @@
+#footer {
+    padding-top: 200px;
+  }
+  .footer-col {
+    list-style-type: none;
+    padding-bottom: 30px;
+}
+  
+  ul li a {
+    text-decoration: none;
+    color: #000;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+ul li a:hover {
+    text-decoration: 0;
+    color: #000;
+}
+.icon {
+  background-color: #0D28A6;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 999px;
+  line-height: 25px;
+
+}

@@ -1,0 +1,48 @@
+.container-card{
+    margin-top: 150px;
+    display: grid;
+    max-width: 1047px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: repeat(3, 1fr);
+
+    
+}
+
+.car-card{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px;
+
+position: static;
+width: 333px;
+height: 586px;
+left: 0px;
+top: 0px;
+
+/* Neutral/01 */
+
+background: #FFFFFF;
+/* Shadow/Low */
+
+box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
+margin: 0px 24px;
+
+
+}
+
+.car-card-desc p{
+    font-size: 14px;
+}
+
+.bttn-select{
+    margin-top: 100px;
+}

@@ -1,0 +1,28 @@
+.bg-hero {
+    background-color: #F1F3FF;
+}
+
+.bg-hero-banner {
+    padding-top: 4%;
+}
+
+h1 {
+    font-weight: bold;
+}
+p {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.content-2 {
+    /* position: absolute; */
+    /* margin-left: 832px; */
+    float: right;
+    margin-right: -15px;
+}
+
+.container-second{
+    height: 200px;
+    width: 100vw;
+    background-color: #F1F3FF;
+}

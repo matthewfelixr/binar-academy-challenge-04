@@ -1,0 +1,12 @@
+a{
+    color: black !important;
+    font-weight: 600;
+}
+.bg-nav {
+    background-color: #F1F3FF;
+}
+.header-container{
+    width: 1047px;
+    margin: auto;
+    
+}
