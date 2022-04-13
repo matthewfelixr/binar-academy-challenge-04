@@ -1,7 +1,8 @@
 import React from 'react'
 import './searchbar.css'
+import { Link } from 'react-router-dom'
 
-const SecondSearch = () => {
+const SecondSearch = (props) => {
   return (
     <div className="row justify-content-center">
         <div className="row rounded-2 py-3 shadow-sm bg-white position-absolute SearchBar">
@@ -11,9 +12,10 @@ const SecondSearch = () => {
                 <div className="col-3 px-2 dropDown">
                     <div className="my-3">
                     <label className="form-label fs-6">Tipe Driver</label>
-                    <select id="disabledSelect" className="form-select">
-                        <option></option>
-                        <option>Disabled select</option>
+                    <select id="InputSelect" className="form-select">
+                        <option selected>Pilih Tpe Driver</option>
+                        <option>Dengan Sopir</option>
+                        <option>Tanpa Sopir (lepas kunci)</option> 
                     </select>
                     </div>
                 </div>
@@ -39,7 +41,7 @@ const SecondSearch = () => {
                 </div>
                 
                 <div className="cari col my-5  text-center">
-                    <button className="btn bg-primary">Edit</button>
+                <Link to={"/result"}><button className="btn bg-primary">Edit</button></Link>
                 </div>
             </div>
             

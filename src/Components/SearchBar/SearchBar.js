@@ -11,9 +11,10 @@ const SearchBar = (props) => {
                 <div className="col-3 px-2 dropDown">
                     <div className="my-3">
                     <label className="form-label fs-6">Tipe Driver</label>
-                    <select id="disabledSelect" className="form-select">
-                        <option></option>
-                        <option>Disabled select</option>
+                    <select id="InputSelect" className="form-select">
+                        <option selected>Pilih Tpe Driver</option>
+                        <option>Dengan Sopir</option>
+                        <option>Tanpa Sopir (lepas kunci)</option> 
                     </select>
                     </div>
                 </div>
